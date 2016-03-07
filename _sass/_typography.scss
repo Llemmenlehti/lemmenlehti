@@ -1,0 +1,40 @@
+/*
+ * Typography Specific Classes
+ */
+
+@import '../_sass/variables';
+
+
+ /* Basscss Base Typography */
+
+ body {
+   font-family: $font-family;
+   font-size: $body-font-size;
+   line-height: $line-height;
+   color: $dark-gray;
+ }
+ p {
+   font-size: $body-font-size * $font-scale-factor;
+   font-weight: 300;
+ }
+ a {
+   color: $black;
+   text-decoration: none;
+   padding-bottom: 2px;
+   border-bottom: 2px solid $gray;
+ }
+ a:hover { border-bottom: 2px solid $black; }
+ .naked-link { border-bottom: none; }
+ h1, h2, h3, h4, h5, h6,
+ .h1, .h2, .h3, .h4, .h5, .h6 {
+   font-family: $heading-font-family;
+   font-weight: $heading-font-weight;
+   line-height: $heading-line-height;
+   color: $black;
+ }
+ h1, .h1 { font-size: $h1 }
+ h2, .h2 { font-size: $h2 }
+ h3, .h3 { font-size: $h3 }
+ h4, .h4 { font-size: $h4 }
+ h4, .h5 { font-size: $h5 }
+ h6, .h6 { font-size: $h6 }
