@@ -19,7 +19,11 @@
   */
 
  // .container { max-width: $container-width; }
-
+ .logo {
+    height: $img-xs;
+    width: $img-xs;
+    margin-right: 1em;
+  }
 
  /*
   * Custom Classes
