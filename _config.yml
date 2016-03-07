@@ -9,7 +9,7 @@
   title: Lauri Lemmenlehti
   baseurl: "" # the subpath of your site, e.g. /blog
   url: "" # the base hostname & protocol for your site
-  permalink: # /:categories/:title/
+  permalink: /:categories/:title/
   description: > # this means to ignore newlines until "baseurl:"
     Personal Website for Lauri Lemmenlehti.
   author:
@@ -27,6 +27,3 @@
   sass:
       sass_dir: _sass
       style: :compressed
-
-  paginated_category: "posts"
-  posts_per_page: 5
